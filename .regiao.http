@@ -1,0 +1,12 @@
+GET http://localhost:3000/regioes
+
+###
+GET http://localhost:3000/regioes/1
+
+###
+POST http://localhost:3000/regioes
+content-type: application/json
+
+{
+    "nome": "Cidade da finecap"    
+}
